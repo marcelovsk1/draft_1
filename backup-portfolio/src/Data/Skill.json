@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Swift",
+    "imageSrc": "Skills/swift.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "Skills/react.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "Skills/python.png"
+  },
+  {
+    "title": "JS",
+    "imageSrc": "Skills/js.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "Skills/csharp.png"
+  },
+  {
+    "title": "Rails",
+    "imageSrc": "Skills/rails.svg"
+  },
+  {
+    "title": "Ruby",
+    "imageSrc": "Skills/ruby.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "Skills/git_icon.png"
+  },
+  {
+    "title": "Unity",
+    "imageSrc": "Skills/unity.svg"
+  }
+]
