@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar/Navbar"
 import './App.css';
-// import Intro from "./Components/Intro/Intro"
+import Intro from "./Components/Intro/Intro"
 // import About from "./Components/About/About"
 // import Experience from "./Components//Experience/Experience";
 // import Projects from "./Components/Projects/Projects";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <Intro /> */}
+      <Intro />
       {/* <About /> */}
       {/* <Experience /> */}
       {/* <Projects /> */}
