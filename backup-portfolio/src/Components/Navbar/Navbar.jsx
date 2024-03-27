@@ -56,7 +56,7 @@ const Navbar = () => {
           <li><a href="#about" onClick={() => handleLinkClick("about")}>About</a></li>
           <li><a href="#experience" onClick={() => handleLinkClick("experience")}>Experience</a></li>
           <li><a href="#projects" onClick={() => handleLinkClick("projects")}>Projects</a></li>
-          <li><a href="#contact" onClick={() => handleLinkClick("contact")}>Contact</a></li>
+          {/* <li><a href="#contact" onClick={() => handleLinkClick("contact")}>Contact</a></li> */}
         </ul>
       </div>
     </>

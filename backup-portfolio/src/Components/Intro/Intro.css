@@ -170,6 +170,7 @@
 
   .i-name>:nth-child(3) {
     font-size: 26px;
+    width: 100%;
   }
 
   .role {
@@ -222,6 +223,6 @@
   .i-right img {
     width: 22vh;
     height: auto;
-    padding-left: 14vh;
+    padding-left: 13vh;
   }
 }
