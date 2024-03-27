@@ -56,7 +56,7 @@
 }
 
 .button.i-button {
-  background-color: #0c0e0f;
+  background-color: #007bff;
   color: #fff;
   border: none;
   padding: 8px 1px;
@@ -83,20 +83,28 @@
 }
 
 .button-cv:hover {
-  transform: scale(1.10); /* Aumenta o tamanho em 5% */
+  transform: scale(1.10);
 }
 
-.i-button {
-  width: 8rem;
-  height: 2.5rem;
-  margin-right: 1rem;
-  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
-  align-items: center;
+.button-contact {
+  background-color: #e3e3e3;
+  color: #007bff;
+  border: none;
+  padding: 14px 16px;
   font-size: 14px;
+  font-weight: 600;
+  margin-right: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
 }
 
-.i-button:hover {
-  transform: scale(1.1);
+.button-contact:hover {
+  transform: scale(1.10);
 }
 
 .i-icons {
@@ -113,7 +121,6 @@
   height: 30px;
 }
 
-
 .i-right {
   display: flex;
   justify-content: center;
@@ -124,9 +131,12 @@
 }
 
 @media screen and (max-width: 600px) {
+
   .intro {
     display: flex;
     flex-direction: column;
+    margin-top: -10vh;
+    margin-bottom: 20vh;
   }
 
   .i-left {
@@ -155,11 +165,7 @@
   }
 
   .i-name>:nth-child(2) {
-    font-size: 36px;
-  }
-
-  .i-name>:nth-child(2) {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .i-name>:nth-child(3) {
@@ -173,20 +179,9 @@
     height: 3rem
   }
 
-
   .i-buttons-container {
     display: flex;
     justify-content: center;
-  }
-
-  .i-button {
-    width: 8rem;
-    height: 2.5rem;
-    margin-right: 1rem;
-    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
-    align-items: center;
-    font-size: 14px;
-    padding-bottom: 5vh;
   }
 
   .button-cv {
@@ -196,12 +191,28 @@
     padding: 2px 12px;
     font-size: 14px;
     font-weight: 600;
-    margin-right: 24px;
+    margin-left: 24px;
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
     display: flex;
     align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-contact {
+    background-color: #efefef;
+    color: #007bff;
+    border: none;
+    padding: 2px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .i-name {
@@ -211,6 +222,6 @@
   .i-right img {
     width: 22vh;
     height: auto;
-    padding-left: 10vh;
+    padding-left: 14vh;
   }
 }
