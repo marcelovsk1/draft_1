@@ -45,15 +45,6 @@
   font-weight: 600;
 }
 
-/* .i-name > :nth-child(4) {
-  font-size: 2rem;
-  margin-top: 5px;
-  background-image: linear-gradient(to right, #FF3B30, #FFCC00, #42b6ce, #007AFF, #9763e4);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-} */
 
 .role {
   font-weight: 600;
@@ -62,6 +53,37 @@
 .i-buttons-container {
   display: flex;
   justify-content: center;
+}
+
+.button.i-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 1px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-cv {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
+
+.button-cv:hover {
+  transform: scale(1.10); /* Aumenta o tamanho em 5% */
 }
 
 .i-button {
@@ -77,7 +99,6 @@
   transform: scale(1.1);
 }
 
-
 .i-icons {
   margin-top: 0.1rem;
   display: flex;
@@ -92,9 +113,6 @@
   height: 30px;
 }
 
-/* .i-icons>*:hover {
-  transform: scale(1.9);
-} */
 
 .i-right {
   display: flex;
@@ -169,6 +187,21 @@
     align-items: center;
     font-size: 14px;
     padding-bottom: 5vh;
+  }
+
+  .button-cv {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 2px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
   }
 
   .i-name {

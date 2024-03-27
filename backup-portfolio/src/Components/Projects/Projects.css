@@ -137,7 +137,7 @@ a.button.i-button:hover {
 
   .project {
     max-width: 500px;
-    height: 740px;
+    height: 760px;
     width: 150%;
     margin-top: 8vh;
     justify-content: center;
@@ -162,7 +162,7 @@ a.button.i-button:hover {
     font-weight: 600;
     text-align: center;
     width: 5rem;
-    height: 0.1rem;
+    height: 3.5rem;
     transition: background-color 0.3s ease, border 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: 1rem;
