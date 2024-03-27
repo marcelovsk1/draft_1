@@ -93,8 +93,11 @@
   font-weight: 500;
   font-size: 1vh;
   letter-spacing: 1px;
-  margin: 20px auto; /* Centraliza verticalmente e define margens automáticas horizontalmente */
+  margin: 20px auto;
+  margin-left: 10px; /* Ajuste a margem esquerda conforme necessário */
+  margin-right: 10px; /* Ajuste a margem direita conforme necessário */
 }
+
 
 
 .box-rumble-img {
@@ -124,7 +127,7 @@ a.button.i-button:hover {
 }
 
 .mobile-only {
-  display: none; /* Mostra apenas em dispositivos móveis */
+  display: none;
 }
 
 
@@ -137,9 +140,9 @@ a.button.i-button:hover {
 
   .project {
     max-width: 500px;
-    height: 720px;
+    height: 740px;
     width: 150%;
-    margin-top: 10vh;
+    margin-top: 8vh;
     justify-content: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     padding: 24px;
@@ -197,8 +200,8 @@ a.button.i-button:hover {
     border-radius: 20px;
     top: 0;
     left: 0;
-    width: 110%; /* Largura igual à largura da imagem */
-    height: 50%; /* Altura igual à altura da imagem */
+    width: 110%;
+    height: 50%;
     transition: opacity 0.5s ease-in-out;
   }
 
@@ -206,29 +209,15 @@ a.button.i-button:hover {
     display: block;
     border-radius: 0.3rem;
     border: none;
-    background-color: #007AFF;
+    background-color: var(--black);
     color: white;
     font-size: 14.5px;
     font-weight: 600;
     text-align: center;
     width: 3.2rem;
     height: 1.2rem;
-    margin-left: 3vh;
+    margin-left: 3.5vh;
     margin-top: -1vh;
-    transition: background-color 0.3s ease, border 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  .button-mobile {
-    border-radius: 0.3rem;
-    border: none;
-    background-color: #007AFF;
-    color: white;
-    font-size: 14.5px;
-    font-weight: 600;
-    text-align: center;
-    width: 15rem;
-    height: 15rem;
     transition: background-color 0.3s ease, border 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
@@ -241,7 +230,7 @@ a.button.i-button:hover {
     position: absolute;
     text-align: center;
     color: var(--blueCard);
-    top: 50%; /* Mantendo o texto no centro */
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.5s ease-in-out;
@@ -249,25 +238,20 @@ a.button.i-button:hover {
     width: 60%;
   }
 
-    /* Outros estilos para dispositivos móveis */
-
     .mobile-only {
-      display: block; /* Mostra apenas em dispositivos móveis */
+      display: block;
     }
-
-    /* Outros estilos para a versão móvel */
-
-
-
-
 
   .proj-txtx span {
     display: none;
   }
 
   .projects-title-mobile {
-    margin-left: 1vh;
+    text-align: center; /* Centraliza o texto horizontalmente */
     font-size: 12px;
+    font-weight: 600;
     width: 100%;
+    margin: 18 20; /* Define margens automáticas para centralizar verticalmente */
   }
+
 }

@@ -27,13 +27,13 @@ const Projects = () => {
   const iosProjects = [
     {
       title: "Netflix Clone",
-      description: "A Netflix clone developed in Objective-C, featuring sections for browsing movies and TV shows",
+      description: "A clone of Netflix in Objective-C that had movie and TV shows",
       imgUrl: netflixapp,
       link: "https://github.com/marcelovsk1/netflix-app-clone"
     },
     {
       title: "News App",
-      description: "A Swift-based news application leveraging Firebase and an API for its development",
+      description: "Firebase and an API are being used in the development of a news application written in Swift.",
       imgUrl: newsapp,
       link: "https://github.com/marcelovsk1/NewsApp"
     },
