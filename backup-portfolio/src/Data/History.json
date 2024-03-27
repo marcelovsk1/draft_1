@@ -1,0 +1,10 @@
+[
+  {
+    "role": "Software Engineer Intern",
+    "organisation": "Trendit - Find Events",
+    "startDate": "Dec, 2023",
+    "endDate": "Present",
+    "experiences": ["As a Software Engineer Intern at Trendit - Find Events, I develop and enhance the app's functionality and user experience by implementing updates. I also create scraper robots to gather event data from diverse sources and update the app's database. This includes writing efficient code to handle large volumes of data with accuracy and reliability."],
+    "imageSrc": "Skills/trendit_img.png"
+  }
+]
