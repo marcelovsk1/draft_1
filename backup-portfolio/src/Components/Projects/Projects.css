@@ -93,8 +93,11 @@
   font-weight: 500;
   font-size: 1vh;
   letter-spacing: 1px;
-  margin: 20px auto; /* Centraliza verticalmente e define margens automáticas horizontalmente */
+  margin: 20px auto;
+  margin-left: 10px; /* Ajuste a margem esquerda conforme necessário */
+  margin-right: 10px; /* Ajuste a margem direita conforme necessário */
 }
+
 
 
 .box-rumble-img {
