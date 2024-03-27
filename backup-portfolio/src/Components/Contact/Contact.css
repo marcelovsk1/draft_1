@@ -1,0 +1,81 @@
+.contact-container {
+  position: relative;
+  padding-top: 1vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2%;
+  margin-top: 5vh;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.c-right>form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid var(--gray);
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(104, 104, 104, 0.2);
+}
+
+textarea {
+  height: 6rem!important;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+
+h2 {
+  font-size: 7vh;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+h2 span {
+  color: var(--blueCard);
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .contact-container {
+    position: relative;
+    padding-top: 1vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    margin-top: 10vh;
+  }
+
+  h2 {
+    color: var(--color-text);
+    font-size: 4.2vh;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-bottom: 50px;
+
+  }
+
+  .i-button[value="Send"] {
+    background-color: var(--blueCard);
+    padding-bottom: -5vh;
+    font-size: 14px;
+    padding: 4px;
+  }
+
+}
