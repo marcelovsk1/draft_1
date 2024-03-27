@@ -51,7 +51,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="i-buttons-container">
-          <button className="button i-button">Download CV</button>
+          <a href="https://flowcv.com/resume/p29t6q3gne" className="button-cv" target="_blank" rel="noopener noreferrer">Download CV</a>
           <button className="button-secondary i-button" onClick={scrollToContact}>Contact Info</button>
         </div>
         <div className="i-icons">
