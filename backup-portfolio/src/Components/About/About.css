@@ -157,4 +157,8 @@ p {
     margin-bottom: 50px;
   }
 
+  .ios {
+    margin-left: 1vh;
+  }
+
 }
