@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "react-bootstrap": "^2.10.2",
     "react-visibility-sensor": "^5.1.1"
   }
