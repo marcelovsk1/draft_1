@@ -43,8 +43,8 @@
   background-clip: text;
   color: transparent;
   font-weight: 600;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .role {
   font-weight: 600;
