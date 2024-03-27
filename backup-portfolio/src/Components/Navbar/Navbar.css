@@ -98,7 +98,7 @@
     border: none;
     cursor: pointer;
     width: 30%;
-    margin-left: 28vh;
+    margin-left: 26vh;
     margin-top: -10vh;
   }
 
@@ -129,14 +129,13 @@
     list-style-type: none;
     padding: 0;
     padding-top: 25vh;
-    color: #ef3c36;
     text-decoration: none;
   }
 
   .mobile-menu li {
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
-    padding-top: 5vh;
+    /* padding-top: 15vh; */
   }
 
   .mobile-menu ul li a {
