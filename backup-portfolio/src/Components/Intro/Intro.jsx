@@ -18,7 +18,7 @@ const Intro = () => {
       } else {
         clearInterval(interval);
       }
-    }, 200); // Intervalo para uma transição mais suave
+    }, 120);
 
     return () => clearInterval(interval);
   }, [textIndex, charIndex, texts]);
@@ -26,9 +26,9 @@ const Intro = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setTextIndex(prevIndex => (prevIndex + 1) % texts.length);
-      setTypedText(''); // Limpa o texto digitado para exibir o próximo texto
-      setCharIndex(0); // Reinicia o índice de caracteres para exibir o próximo texto
-    }, 2000); // Altera o texto a cada 3 segundos
+      setTypedText('');
+      setCharIndex(0);
+    }, 2500); // Altera o texto a cada 3 segundos
 
     return () => clearTimeout(timeout);
   }, [textIndex, texts]);
