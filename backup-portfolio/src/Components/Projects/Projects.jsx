@@ -144,7 +144,7 @@ const Projects = () => {
                         <Nav.Link eventKey="second" as="button" className="button i-button">FullStack</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third" as="button" className="button i-button">Game Projects</Nav.Link>
+                        <Nav.Link eventKey="third" as="button" className="button i-button">Games</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content>
