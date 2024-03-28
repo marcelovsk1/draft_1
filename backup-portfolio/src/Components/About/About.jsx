@@ -17,7 +17,7 @@ const About = () => {
                 <div class='webdev'>
                   <div class='description'>
                     <h3>Web-Developer</h3>
-                    <p>Full Stack Web Developer graduated from Le Wagon Montreal. With a solid foundation in both front-end and back-end technologies, I am dedicated to crafting impactful and functional digital experiences.</p>
+                    <p>Full Stack Web Developer graduated from <span>Le Wagon Montreal.</span> With a solid foundation in both front-end and back-end technologies, I am dedicated to crafting impactful and functional digital experiences.</p>
                   </div>
                 </div>
                 <a href="https://www.lewagon.com">
@@ -28,7 +28,7 @@ const About = () => {
                 <div class="webdev">
                   <div class="description">
                     <h3>iOS Developer</h3>
-                    <p>Following my bootcamp graduation, I delved into iOS development, honing my skills and specializing in crafting seamless experiences for Apple's ecosystem.</p>
+                    <p>Following my bootcamp graduation, I delved into <spam className="ios-span">iOS development</spam>, honing my skills and specializing in crafting seamless experiences for Apple's ecosystem.</p>
                   </div>
                 </div>
                 <a href="https://www.linkedin.com/feed/update/urn:li:activity:7143249482875396096/">
