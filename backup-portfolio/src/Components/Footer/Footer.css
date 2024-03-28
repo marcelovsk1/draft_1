@@ -69,14 +69,14 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-left: 6rem;
+    margin-left: 5rem;
     font-size: 10px;
   }
 
   .n-lista>ul {
     display: flex;
     gap: 1rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
     list-style-type: none;
   }
 }

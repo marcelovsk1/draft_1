@@ -64,15 +64,17 @@ h2 span {
 
   h2 {
     color: var(--color-text);
-    font-size: 4.2vh;
-    font-weight: 600;
-    letter-spacing: -2px;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    justify-content: center;
+    /* margin-bottom: -3vh; */
 
   }
 
   .i-button[value="Send"] {
     background-color: var(--blueCard);
+    margin-left: 2vh;
     padding-bottom: -5vh;
     font-size: 14px;
     padding: 4px;
