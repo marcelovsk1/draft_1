@@ -150,8 +150,8 @@ p {
 
   .styles_container {
     /* max-width: 500px; */
-    height: 600px;
-    width: 150%;
+    height: 610px;
+    width: 160%;
     /* margin-top: 4vh; */
     /* justify-content: center; */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -176,14 +176,15 @@ p {
     /* align-items: center; */
     /* text-align: center; */
     /* margin-right: 8vh; */
-    margin-bottom: -5vh;
+    margin-bottom: -2vh;
+
   }
 
   .description h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 60px;
     width: 100%;
     font-size: 20px;
     margin-bottom: 0vh;
@@ -196,6 +197,18 @@ p {
     /* margin-left: 14px; */
     /* margin-bottom: 50px; */
   }
+
+  p > span {
+    font-weight: 600;
+    color: var(--blueCard);
+  }
+
+  .ios-span {
+    font-weight: 600;
+    color: var(--blueCard);
+  }
+
+
 
   .le_wagon {
     display: none;
