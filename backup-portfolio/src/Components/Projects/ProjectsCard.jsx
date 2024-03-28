@@ -19,7 +19,7 @@ export const ProjectCard = ({ title, description, imgUrl, link}) => {
       {/* Renderiza apenas na versão para dispositivos móveis */}
       <div className="mobile-only">
         <p className="projects-title-mobile">{title}</p>
-        <a href={link} className="button i-button special-button">GitHub</a>
+        <a href={link} className="special-button-mobile">GitHub</a>
       </div>
     </Col>
   )

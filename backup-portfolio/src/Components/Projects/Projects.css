@@ -137,7 +137,7 @@ a.button.i-button:hover {
 
   .project {
     max-width: 500px;
-    height: 760px;
+    height: 600px;
     width: 150%;
     margin-top: 8vh;
     justify-content: center;
@@ -154,38 +154,46 @@ a.button.i-button:hover {
   }
 
   .nav-link.i-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 0.3rem;
     border: none;
     background-color: #007AFF;
     color: white;
-    font-size: 14.5px;
+    font-size: 11.5px;
     font-weight: 600;
     text-align: center;
     width: 5rem;
-    height: 3.5rem;
+    height: 2.5rem;
     transition: background-color 0.3s ease, border 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-left: 1rem;
-  }
+    margin-left: 5px; /* Ajusta o espaçamento à esquerda para mover os botões para a direita */
+    margin-right: 5px; /* Ajusta o espaçamento à direita para reduzir o gap entre os botões */
+}
 
   .wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 20px 50px;
+    display: flex; /* Alterando para flexbox para criar uma fila vertical */
+    flex-direction: column; /* Definindo a direção da fila como vertical */
     margin: 2vh;
     margin-right: 6vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 140%;
+    max-height: 400px; /* Definindo a altura máxima para a lista de eventos */
   }
 
   .box img {
-    width: 170%;
+    width: 100%;
     max-width: 180%;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-left: 2vh;
+
   }
 
   .box {
     position: relative;
-    margin: 2vh;
   }
 
   .box::before {
@@ -202,21 +210,27 @@ a.button.i-button:hover {
     transition: opacity 0.5s ease-in-out;
   }
 
-  .button.i-button.special-button {
+  .special-button-mobile {
     display: block;
     border-radius: 0.3rem;
     border: none;
     background-color: var(--black);
     color: white;
-    font-size: 14.5px;
+    font-size: 12px;
+    text-decoration: none;
     font-weight: 600;
     text-align: center;
-    width: 3.2rem;
-    height: 1.2rem;
-    margin-left: 3.5vh;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 10vh;
     margin-top: -1vh;
     transition: background-color 0.3s ease, border 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    line-height: 2rem;
+  }
+
+  a.button.i-button {
+    display: none;
   }
 
   .proj-txtx h4 {
@@ -235,9 +249,9 @@ a.button.i-button:hover {
     width: 60%;
   }
 
-    .mobile-only {
-      display: block;
-    }
+   .mobile-only {
+    display: block;
+  }
 
   .proj-txtx span {
     display: none;
@@ -245,10 +259,10 @@ a.button.i-button:hover {
 
   .projects-title-mobile {
     text-align: center; /* Centraliza o texto horizontalmente */
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     width: 100%;
-    margin: 18 23; /* Define margens automáticas para centralizar verticalmente */
+    margin: 18 14; /* Define margens automáticas para centralizar verticalmente */
   }
 
 }
