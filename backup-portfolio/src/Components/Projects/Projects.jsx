@@ -20,7 +20,6 @@ import portfolio from "../../img/portfolio.png"
 // Games
 import boxrumble from "../../img/box.png"
 
-
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("first");
 
@@ -111,7 +110,6 @@ const Projects = () => {
     }
   ];
 
-  // Função para renderizar os projetos com base na guia selecionada
   const renderProjects = () => {
     switch (activeTab) {
       case "first":
@@ -138,7 +136,7 @@ const Projects = () => {
                   <Tab.Container id="projects-tabs" activeKey={activeTab} onSelect={(key) => setActiveTab(key)}>
                     <Nav className="i-buttons-container">
                       <Nav.Item>
-                        <Nav.Link eventKey="first" as="button" className="button i-button">iOS Projects</Nav.Link>
+                        <Nav.Link eventKey="first" as="button" className="button i-button">iOS</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second" as="button" className="button i-button">FullStack</Nav.Link>
@@ -157,7 +155,6 @@ const Projects = () => {
                           ))}
                         </Row>
                       </Tab.Pane>
-                      {/* Outras guias */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>

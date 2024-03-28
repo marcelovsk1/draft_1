@@ -2,7 +2,7 @@
   padding: 20px 0;
   position: relative;
   margin-top: 10vh;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 3%;
 }
 .project h2 {
@@ -222,7 +222,7 @@ a.button.i-button:hover {
     text-align: center;
     width: 6rem;
     height: 2rem;
-    margin-left: 9.5vh;
+    margin-left: 9vh;
     margin-top: -1vh;
     transition: background-color 0.3s ease, border 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -258,11 +258,11 @@ a.button.i-button:hover {
   }
 
   .projects-title-mobile {
-    text-align: center; /* Centraliza o texto horizontalmente */
-    font-size: 10px;
+    text-align: center;
+    font-size: 12px;
     font-weight: 600;
     width: 100%;
-    margin: 18 14; /* Define margens automáticas para centralizar verticalmente */
+    margin: 18 14;
   }
 
 }
