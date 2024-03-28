@@ -208,8 +208,6 @@ p {
     color: var(--blueCard);
   }
 
-
-
   .le_wagon {
     display: none;
     margin-left: 2vh;
@@ -218,6 +216,18 @@ p {
   .ios {
     display: none;
     margin-left: 1vh;
+  }
+
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2500px) {
+  /* Seu CSS para larguras de tela entre 1200px e 2500px */
+  .styles_content {
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding-bottom: 10vh;
+    margin-left: 20vh;
   }
 
 }
