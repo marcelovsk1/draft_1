@@ -262,7 +262,8 @@ a.button.i-button:hover {
     font-size: 12px;
     font-weight: 600;
     width: 100%;
-    margin: 18 14;
+    /* margin: 18 14; */
+    margin-left: 2.4vh;
   }
 
 }
