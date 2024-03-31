@@ -264,6 +264,7 @@ a.button.i-button:hover {
     width: 100%;
     /* margin: 18 14; */
     margin-left: 2.4vh;
+    padding-bottom: 1vh;
   }
 
 }
