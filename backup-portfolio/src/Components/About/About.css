@@ -2,26 +2,22 @@
   position: relative;
   padding-top: 1vh;
   background-color: rgb(255, 255, 255);
-  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Prefixo específico do Safari */
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 2%;
   margin-top: 5vh;
-  /* height: 100%; */
 }
 
 .pic_container {
-  display: -webkit-box; /* Prefixo específico do Safari */
-  display: -ms-flexbox; /* Prefixo específico do Internet Explorer */
   display: flex;
-  -webkit-box-align: center; /* Prefixo específico do Safari */
-      -ms-flex-align: center; /* Prefixo específico do Internet Explorer */
-          align-items: center;
+  align-items: center;
 }
 
 .About-Pic {
   height: 45vh;
   width: 45vh;
   margin-left: 8vh;
+  max-width: 100%; /* Adicionado para garantir responsividade */
 }
 
 .styles_title {
@@ -36,58 +32,33 @@
 }
 
 .styles_content {
-  display: -webkit-box; /* Prefixo específico do Safari */
-  display: -ms-flexbox; /* Prefixo específico do Internet Explorer */
   display: flex;
-  -webkit-box-orient: horizontal; /* Prefixo específico do Safari */
-  -webkit-box-direction: normal; /* Prefixo específico do Safari */
-      -ms-flex-direction: row; /* Prefixo específico do Internet Explorer */
-          flex-direction: row;
-  -webkit-box-align: center; /* Prefixo específico do Safari */
-      -ms-flex-align: center; /* Prefixo específico do Internet Explorer */
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
   padding-bottom: 10vh;
 }
 
 .styles_itens {
-  display: -webkit-box; /* Prefixo específico do Safari */
-  display: -ms-flexbox; /* Prefixo específico do Internet Explorer */
   display: flex;
-  -webkit-box-orient: vertical; /* Prefixo específico do Safari */
-  -webkit-box-direction: normal; /* Prefixo específico do Safari */
-      -ms-flex-direction: column; /* Prefixo específico do Internet Explorer */
-          flex-direction: column;
+  flex-direction: column;
   gap: 50px;
-  -webkit-box-flex: 1; /* Prefixo específico do Safari */
-      -ms-flex-positive: 1; /* Prefixo específico do Internet Explorer */
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 .education {
-  display: -webkit-box; /* Prefixo específico do Safari */
-  display: -ms-flexbox; /* Prefixo específico do Internet Explorer */
   display: flex;
   list-style: none;
-  -webkit-box-align: center; /* Prefixo específico do Safari */
-      -ms-flex-align: center; /* Prefixo específico do Internet Explorer */
-          align-items: center;
+  align-items: center;
   margin-bottom: -10px;
 }
 
 .webdev {
-  display: -webkit-box; /* Prefixo específico do Safari */
-  display: -ms-flexbox; /* Prefixo específico do Internet Explorer */
   display: flex;
-  -webkit-box-orient: vertical; /* Prefixo específico do Safari */
-  -webkit-box-direction: normal; /* Prefixo específico do Safari */
-      -ms-flex-direction: column; /* Prefixo específico do Internet Explorer */
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .description {
-  -webkit-box-align: center; /* Prefixo específico do Safari */
-      -ms-flex-align: center; /* Prefixo específico do Internet Explorer */
-          align-items: center;
+  align-items: center;
   word-wrap: break-word;
   padding-left: 4vh;
   text-align: start;
@@ -100,7 +71,6 @@
 
 h3 {
   font-weight: 600;
-  /* font-size: 20px; */
 }
 
 p {
@@ -126,19 +96,11 @@ p {
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
-.le_wagon:hover {
-  -webkit-transform: scale(1.1); /* Prefixo específico do Safari */
-          transform: scale(1.1);
-  -webkit-transition: -webkit-transform 0.3s ease; /* Prefixo específico do Safari */
+.le_wagon:hover, .ios:hover {
+  transform: scale(1.1);
   transition: transform 0.3s ease;
 }
 
-.ios:hover {
-  -webkit-transform: scale(1.1); /* Prefixo específico do Safari */
-          transform: scale(1.1);
-  -webkit-transition: -webkit-transform 0.3s ease; /* Prefixo específico do Safari */
-  transition: transform 0.3s ease;
-}
 
 @media screen and (max-width: 600px) {
 
@@ -230,4 +192,16 @@ p {
     margin-left: 20vh;
   }
 
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .styles_container {
+    position: relative;
+    padding-top: 1vh;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    margin-top: 5vh;
+  }
 }
