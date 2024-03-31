@@ -110,6 +110,7 @@ p {
 }
 
 .le_wagon {
+  max-width: 100%;
   border-radius: 10%;
   width: 50%;
   height: 50%;
@@ -118,7 +119,7 @@ p {
   margin-right: 15vh;
 }
 
-.ios {
+.iOS {
   border-radius: 10%;
   width: 77%;
   height: 77%;
@@ -133,12 +134,13 @@ p {
   transition: transform 0.3s ease;
 }
 
-.ios:hover {
+.iOS:hover {
   -webkit-transform: scale(1.1); /* Prefixo específico do Safari */
           transform: scale(1.1);
   -webkit-transition: -webkit-transform 0.3s ease; /* Prefixo específico do Safari */
   transition: transform 0.3s ease;
 }
+
 
 @media screen and (max-width: 600px) {
 
@@ -194,7 +196,7 @@ p {
     text-align: center;
     margin-bottom: -1vh;
     width: 140%;
-    /* margin-left: 14px; */
+    /* margin-left: 2px; */
     /* margin-bottom: 50px; */
   }
 
@@ -208,8 +210,6 @@ p {
     color: var(--blueCard);
   }
 
-
-
   .le_wagon {
     display: none;
     margin-left: 2vh;
@@ -218,6 +218,18 @@ p {
   .ios {
     display: none;
     margin-left: 1vh;
+  }
+
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2500px) {
+  /* Seu CSS para larguras de tela entre 1200px e 2500px */
+  .styles_content {
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding-bottom: 10vh;
+    margin-left: 20vh;
   }
 
 }

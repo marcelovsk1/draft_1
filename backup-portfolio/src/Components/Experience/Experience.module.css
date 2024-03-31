@@ -223,3 +223,15 @@
   }
 
 }
+
+
+
+@media screen and (min-width: 2000px) and (max-width: 2500px) {
+
+  .skills {
+    width: 30%;
+    display: grid; /* Alterado para grid */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas iguais */
+    gap: 1px; /* Espaçamento entre os elementos */
+  }
+}

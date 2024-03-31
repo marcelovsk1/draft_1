@@ -1,137 +1,143 @@
-  .intro {
-    display: flex;
-    height: 77vh;
-    margin: 0 auto;
-    max-width: 1200px;
-  }
+.intro {
+  display: -webkit-box; /* Safari e iOS */
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  height: 77vh;
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
-  .role-container {
-    height: 3rem; /* Altura fixa para o contêiner do texto */
-  }
+.role-container {
+  height: 3rem; /* Altura fixa para o contêiner do texto */
+}
 
-  .i-left {
-    display: flex;
-    position: relative;
-    flex: 1;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 17rem;
-  }
+.i-left {
+  display: -webkit-box; /* Safari e iOS */
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  position: relative;
+  -webkit-box-flex: 1; /* Safari e iOS */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  -webkit-box-orient: vertical; /* Safari e iOS */
+  -webkit-box-direction: normal; /* Safari e iOS */
+  -ms-flex-direction: column; /* IE 10 */
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 17rem;
+}
 
-  .i-name {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+.i-name {
+  display: -webkit-box; /* Safari e iOS */
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -webkit-box-orient: vertical; /* Safari e iOS */
+  -webkit-box-direction: normal; /* Safari e iOS */
+  -ms-flex-direction: column; /* IE 10 */
+  flex-direction: column;
+  text-align: center;
+}
 
-  .i-name>:nth-child(1) {
-    color: rgb(101, 101, 101);
-    font-weight: regular;
-    font-size: 1.8rem;
-  }
+.i-name > :nth-child(1) {
+  color: rgb(101, 101, 101);
+  font-weight: regular;
+  font-size: 1.8rem;
+}
 
-  .i-name>:nth-child(2) {
-    color: var(--black);
-    font-weight: 600;
-    font-size: 3.5rem;
-    letter-spacing: -0.1rem;
-  }
+.i-name > :nth-child(2) {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: -0.1rem;
+}
 
-  .i-name > :nth-child(3) {
-    font-size: 2rem;
-    margin-top: 5px;
-    background-image: linear-gradient(to right, #FF3B30, #FFCC00, #42b6ce, #007AFF, #9763e4);
-    -webkit-background-clip: text;
-            background-clip: text;
-    color: transparent;
-    font-weight: 600;
-    -webkit-text-fill-color: transparent;
-  }
+.i-name > :nth-child(3) {
+  font-size: 2rem;
+  margin-top: 5px;
+  background-image: -webkit-linear-gradient(left, #FF3B30, #FFCC00, #42b6ce, #007AFF, #9763e4); /* Safari */
+  background-image: linear-gradient(to right, #FF3B30, #FFCC00, #42b6ce, #007AFF, #9763e4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+}
 
-  .role {
-    font-weight: 600;
-  }
+.role {
+  font-weight: 600;
+}
 
-  .i-buttons-container {
-    display: flex;
-    justify-content: center;
-  }
+.i-buttons-container {
+  display: flex;
+  justify-content: center;
+}
 
-  .button.i-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 1px;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-  }
+.button.i-button,
+.button-cv,
+.button-contact {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-  .button-cv {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-right: 24px;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
-  }
+.button-cv {
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
 
-  .button-cv:hover {
-    transform: scale(1.10);
-  }
+.button-cv:hover,
+.button-contact:hover {
+  transform: scale(1.10);
+}
 
-  .button-contact {
-    background-color: #e3e3e3;
-    color: #007bff;
-    border: none;
-    padding: 14px 16px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-right: 24px;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Prefixo específico do Safari */
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
-  }
+.button-contact {
+  background-color: #e3e3e3;
+  color: #007bff;
+  border: none;
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Prefixo específico do Safari */
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
 
-  .button-contact:hover {
-    transform: scale(1.10);
-  }
+.i-icons {
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+  align-items: center;
+}
 
-  .i-icons {
-    margin-top: 0.1rem;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    cursor: pointer;
-    align-items: center;
-  }
+.i-icons > * {
+  width: 30px;
+  height: 30px;
+}
 
-  .i-icons>* {
-    width: 30px;
-    height: 30px;
-  }
-
-  .i-right {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    height: 52vh;
-    margin-top: 8rem;
-    padding-right: 6rem;
-  }
+.i-right {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  height: 52vh;
+  margin-top: 8rem;
+  padding-right: 6rem;
+}
 
 
 @media screen and (max-width: 600px) {
