@@ -145,10 +145,10 @@
   .skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: -11vh;
+    margin-left: -66px;
   }
 
   .skill {
