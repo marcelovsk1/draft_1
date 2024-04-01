@@ -157,7 +157,7 @@ a.button.i-button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 0.3rem;
+    border-radius: 5px;
     border: none;
     background-color: #007AFF;
     color: white;
@@ -176,7 +176,7 @@ a.button.i-button:hover {
     display: flex; /* Alterando para flexbox para criar uma fila vertical */
     flex-direction: column; /* Definindo a direção da fila como vertical */
     margin: 2vh;
-    margin-right: 6vh;
+    margin-right: 45px;
     overflow-y: auto;
     overflow-x: hidden;
     max-width: 140%;
@@ -222,8 +222,8 @@ a.button.i-button:hover {
     text-align: center;
     width: 6rem;
     height: 2rem;
-    margin-left: 9.5vh;
-    margin-top: -1vh;
+    margin-left: 75px;
+    margin-top: -10px;
     transition: background-color 0.3s ease, border 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     line-height: 2rem;
@@ -264,7 +264,7 @@ a.button.i-button:hover {
     width: 100%;
     /* margin: 18 14; */
     margin-left: 2.4vh;
-    padding-bottom: 1vh;
+    padding-bottom: 10px;
   }
 
 }
