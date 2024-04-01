@@ -1,5 +1,5 @@
 .n-wrapper {
-  height: 10vh;
+  height: 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -8,7 +8,7 @@
   flex: 1;
   align-items: center;
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 
 .n-right {
@@ -47,8 +47,8 @@
 
 .n-list > ul {
   display: flex;
-  gap: 3rem;
-  margin-right: 4rem;
+  gap: 60px;
+  margin-right: 20px;
 }
 
 .n-list > ul > li {
