@@ -1,11 +1,11 @@
 .styles_container {
   position: relative;
-  padding-top: 1vh;
+  padding-top: 15px;
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Prefixo específico do Safari */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 2%;
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
   /* height: 100%; */
 }
 
@@ -19,13 +19,13 @@
 }
 
 .About-Pic {
-  height: 45vh;
-  width: 45vh;
-  margin-left: 8vh;
+  height: 30%;
+  width: 30%;
+  margin-left: 60px;
 }
 
 .styles_title {
-  font-size: 7vh;
+  font-size: 70px;
   font-weight: 600;
   letter-spacing: -2px;
 }
@@ -46,7 +46,7 @@
   -webkit-box-align: center; /* Prefixo específico do Safari */
       -ms-flex-align: center; /* Prefixo específico do Internet Explorer */
           align-items: center;
-  padding-bottom: 10vh;
+  padding-bottom: 100px;
 }
 
 .styles_itens {
@@ -89,7 +89,7 @@
       -ms-flex-align: center; /* Prefixo específico do Internet Explorer */
           align-items: center;
   word-wrap: break-word;
-  padding-left: 4vh;
+  padding-left: 24px;
   text-align: start;
   margin-bottom: 2px;
 }
@@ -100,13 +100,14 @@
 
 h3 {
   font-weight: 600;
-  /* font-size: 20px; */
+  font-size: 24px;
 }
 
 p {
-  padding-right: 10vh;
+  padding-right: 50px;
   max-width: 700px;
   text-align: left;
+  font-size: 16px;
 }
 
 .le_wagon {
@@ -116,14 +117,14 @@ p {
   height: 50%;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Prefixo específico do Safari */
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  margin-right: 15vh;
+  margin-right: 100px;
 }
 
 .iOS {
   border-radius: 10%;
-  width: 77%;
-  height: 77%;
-  margin-left: -15vh;
+  width: 55%;
+  height: 55%;
+  margin-right: 10px;
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
