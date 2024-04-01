@@ -148,7 +148,7 @@ p {
   .container-wrapper {
     display: flex;
     justify-content: center;
-    /* margin-top: -10vh; */
+    margin-top: -80px;
   }
 
   .styles_container {

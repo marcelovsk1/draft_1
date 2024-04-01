@@ -2,13 +2,14 @@
   display: -webkit-box; /* Safari e iOS */
   display: -ms-flexbox; /* IE 10 */
   display: flex;
-  height: 77vh;
+  height: 750px;
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .role-container {
-  height: 3rem; /* Altura fixa para o contêiner do texto */
+  height: 50px;
+  margin-right: 30px;
 }
 
 .i-left {
@@ -23,8 +24,8 @@
   -webkit-box-direction: normal; /* Safari e iOS */
   -ms-flex-direction: column; /* IE 10 */
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 17rem;
+  gap: 25px;
+  margin-top: 270px;
 }
 
 .i-name {
@@ -41,18 +42,18 @@
 .i-name > :nth-child(1) {
   color: rgb(101, 101, 101);
   font-weight: regular;
-  font-size: 1.8rem;
+  font-size: 34px;
 }
 
 .i-name > :nth-child(2) {
   color: var(--black);
   font-weight: 600;
-  font-size: 3.5rem;
-  letter-spacing: -0.1rem;
+  font-size: 54px;
+  letter-spacing: -1px;
 }
 
 .i-name > :nth-child(3) {
-  font-size: 2rem;
+  font-size: 34px;
   margin-top: 5px;
   background-image: -webkit-linear-gradient(left, #FF3B30, #FFCC00, #42b6ce, #007AFF, #9763e4); /* Safari */
   background-image: linear-gradient(to right, #FF3B30, #FFCC00, #42b6ce, #007AFF, #9763e4);
@@ -134,9 +135,9 @@
   display: flex;
   justify-content: center;
   gap: 4rem;
-  height: 52vh;
+  height: 500px;
   margin-top: 8rem;
-  padding-right: 6rem;
+  padding-right: 3rem;
 }
 
 
@@ -145,8 +146,8 @@
   .intro {
     display: flex;
     flex-direction: column;
-    margin-top: -10vh;
-    margin-bottom: 11vh;
+    margin-top: -80px;
+    margin-bottom: -20px;
   }
 
   .i-left {
@@ -156,7 +157,7 @@
     flex: 1;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 10vh;
+    margin-top: -540px;
     padding-bottom: 30px;
   }
 
@@ -171,11 +172,12 @@
   }
 
   .i-name>:nth-child(1) {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .i-name>:nth-child(2) {
-    font-size: 24px;
+    font-size: 28px;
+    width: 100%;
   }
 
   .i-name>:nth-child(3) {
@@ -184,10 +186,11 @@
   }
 
   .role {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     width: 100%;
-    height: 3rem
+    height: 100px;
+    margin-top: -400px;
   }
 
   .i-buttons-container {
@@ -231,8 +234,7 @@
   }
 
   .i-right img {
-    width: 22vh;
-    height: auto;
-    padding-left: 11vh;
+    height: 150px;
+    padding-left: 50px;
   }
 }
